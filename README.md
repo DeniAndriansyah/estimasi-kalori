@@ -102,8 +102,30 @@ df.info()
 Selanjutnya disini akan memeriksa apakah sudah aman atau masih terdapat nialai yang hilang
 ```bash
 sns.heatmap(df.isnull())
-
 ```
+![Alt text](hm.png) <br>
+Bisa dilihat aman
+Selanjutnya gar mengetahui detail informasi dari dataset
+```bash
+df.describe()
+```
+Lalu selanjutnya agar mengetahui jumlah masing-masing jenis restoran yang terdaftar 
+```bash
+df['restaurant'].value_counts()
+```
+Dan juga disini agar mengetahui jumlah masing-masing jenis item 
+```bash
+df['item'].value_counts()
+```
+Selanjutnya 
+## Visualisasi Data
+Untuk melihat visualisasi dan memahami hubungan antara berbagai fitur dalam dataset dengan warna yang menggambarkan tingkat dan arah korelasi antar fitur
+```bash
+plt.figure(figsize=(10,8))
+sns.heatmap(df.corr(), annot=True)
+```
+![Alt text](.png) <br>
+
 
 
 
