@@ -200,7 +200,7 @@ R-squared : 0.9525584382039234
 ```
 Dan hasil yang saya dapatkan adalah 0.9525584382039234 atau 95.26% model regresi secara umum cukup cocok dengan data, karena memiliki kemampuan yang baik untuk menjelaskan variasi dalam target.
 ## Deployment
-p[My Estimation App]().
+[My Estimation App](https://estimasi-kalori-f7tfpsa8flrfnuehxcjzlx.streamlit.app/).
 
 ![Alt text]()
 
