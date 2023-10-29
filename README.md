@@ -1,7 +1,7 @@
 # Laporan Proyek Machine Learning
 ### Nama : Deni Andriansyah
 ### Nim : 211351040
-### Kelas : Pagi B
+### Kelas : Pagi 
 
 ## Domain Proyek
 
