@@ -31,16 +31,23 @@ Dataset yang saya gunakan saya mengambilnya dari Kaggle yang berisi informasi te
 Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
 ### Variabel-variabel pada Fastfood Nutrition adalah sebagai berikut:
-
+- restaurant : Merupakan toko pada makanan cepat saji.(object)
+- item : Merupakan makanan cepat saji.(object)
 - calories : Merupakan kalori pada makanan dan minuman.(int)
 - fiber : Merupakan serat pangan.(float)
 - total_carb : Merupakan jumlah total kabohidrat.(int)
-- sodium : Merupakan penyedap dari bahan alami.int()
+- sodium : Merupakan penyedap dari bahan alami.(int)
 - cal_fat : Merupakan kalori dari lemak.(int)
 - total_fat : Merupakan total lemak.(int)
 - sat_fat : Merupakan lemak jenuh.(float)
 - protein : Merupakan protein pada makanan.(float)
 - sugar : Merupakan rasa manis pada makanan.(int)
+- trans_fat : Merupakan kemak tak jenuh pada makanan(float)
+- vit_a : Merupakan Vitamin pada makanan(float)
+- vit_c : Merupakan Vitamin pada makanan(float)
+- calcium : Merupakan Kalsium pada makanan(float)
+- cholesterol : Merupakan kolesterol pada makanan(int)
+- salad : Merupakan jenis makanan sayuran(object)
 
 ## Data Preparation
 Dataset yang saya gunakan yaitu mengambil dari Kaggle
