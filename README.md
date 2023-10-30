@@ -9,7 +9,7 @@ Estimasi makanan cepat saji yang tinggi akan kalori, jika tidak menyeimbangkanny
 
 ## Business Understanding
 
-Agar kalian dapat memilih makanan cepat saji yang jumlah kalorinya tinggi, sedang dan rendah untuk mencegah terkena berbagai resiko penyakit.
+Agar orang - orang  dapat memilih makanan cepat saji yang jumlah kalorinya tinggi, sedang dan rendah untuk mencegah terkena berbagai resiko penyakit.
 
 Bagian laporan ini mencakup:
 
@@ -50,6 +50,7 @@ Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:
 - salad : Merupakan jenis makanan sayuran(object)
 
 ## Data Preparation
+Data Preparation merupakan proses analisis data untuk membersihkan, mengubah, dan mempersiapkan data mentah sehingga dapat digunakan untuk analisis. Proses ini merupakan langkah penting sebelum melakukan analisis statistik atau pemodelan data. Tujuannya adalah untuk memastikan bahwa data yang digunakan untuk analisis bebas dari kesalahan, tidak konsisten, atau tidak lengkap. Persiapan data yang efektif dapat meningkatkan keakuratan analisis data.
 Dataset yang saya gunakan yaitu mengambil dari Kaggle
 
 Pertama import library yang akan digunakan
@@ -126,6 +127,7 @@ df['item'].value_counts()
 ```
 Selanjutnya 
 ## Visualisasi Data
+Visualisasi data merupakan representasi grafis dari informasi dan data yang dirancang untuk menyajikan informasi secara visual sehingga dapat dengan mudah dipahami dan dianalisis. 
 Untuk melihat visualisasi dan memahami hubungan antara berbagai fitur dalam dataset dengan warna yang menggambarkan tingkat dan arah korelasi antar fitur
 ```bash
 plt.figure(figsize=(10,8))
@@ -142,6 +144,7 @@ for col in columns:
 ```
 Tahap selanjutnya
 ## Modeling
+Modeling ialah proses pembuatan model matematis, statistik, atau komputasional yang mewakili atau mencerminkan hubungan antara variabel dalam dataset. Tujuannya dari pembuatan model adalah untuk memahami dan menjelaskan pola, tren, atau hubungan dalam data serta untuk membuat prediksi atau estimasi tentang data baru yang belum pernah dilihat sebelumnya. 
 Karena library yanga akan digunakan sudah diawal maka selanjutnya<br>
 Untuk melakukan modeling  memakai algoritma regresi linear dimana harus memisahkan atribut yang akan dijadikan sebagai fitur(x) dan atribut mana yang dijadikan label(y).
 ```bash
@@ -189,6 +192,7 @@ filename = 'estimasi_kalori.sav'
 pickle.dump(lr,open(filename,'wb'))
 ```
 ## Evaluation
+Evaluasi ini merupakan seberapa cocok model dengan data yang dipakai
 Untuk metrik evaluasi yang digunakan yaitu R-squared<br>
 R-squared yaitu koefisien determinasi yang merupakan ukuran seberapa baik model regresi linear cocok dengan data yang diamati
 
