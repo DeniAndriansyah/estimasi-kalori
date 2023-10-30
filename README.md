@@ -189,11 +189,11 @@ filename = 'estimasi_kalori.sav'
 pickle.dump(lr,open(filename,'wb'))
 ```
 ## Evaluation
-Untuk metrik evaluasi yang digunakan yaitu R-squared
+Untuk metrik evaluasi yang digunakan yaitu R-squared<br>
 R-squared yaitu koefisien determinasi yang merupakan ukuran seberapa baik model regresi linear cocok dengan data yang diamati
 
 Selanjutnya untuk evaluasi seberapa baik model cocok dengan data dihitung dengan rumus<br>
-$$R2=1−SSres/SStot$$
+![Alt text](.png) <br>
 ```bash
 lr.fit(x_train, y_train)
 y_train_prediction = lr.predict(x_train)
