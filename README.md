@@ -207,5 +207,5 @@ Dan hasil yang saya dapatkan adalah 0.9525584382039234 atau 95.26% model regresi
 ## Deployment
 [My Estimation App](https://estimasi-kalori-f7tfpsa8flrfnuehxcjzlx.streamlit.app/).
 
-![Alt text](tmpln.png)
+![Alt text](tmp.png)
 
