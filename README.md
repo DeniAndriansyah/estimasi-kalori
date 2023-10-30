@@ -166,7 +166,7 @@ print('akurasi model regresi linier =', score)
 ```bash
 akurasi model regresi linier = 0.991859361417439
 ```
-Hasil akurasinya yaitu 99.19% bahwa hasil itu adalah hasil data yang akurat
+Hasil akurasinya yaitu 99.19% bahwa hasil itu adalah hasil data yang akurat<br>
 Selanjutnya melakukan test menggunakan sebuah array value
 ```bash
 # fiber =3.0 total_carb =44 sodium =1110 cal_fat=60 total_fat =7 sat_fat =2.0 protein =37.0 sugar =11
