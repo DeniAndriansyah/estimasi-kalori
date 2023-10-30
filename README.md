@@ -192,8 +192,8 @@ pickle.dump(lr,open(filename,'wb'))
 Untuk metrik evaluasi yang digunakan yaitu R-squared<br>
 R-squared yaitu koefisien determinasi yang merupakan ukuran seberapa baik model regresi linear cocok dengan data yang diamati
 
-Selanjutnya untuk evaluasi seberapa baik model cocok dengan data dihitung dengan rumus<br>
-![Alt text](.png) <br>
+Selanjutnya untuk evaluasi seberapa baik model cocok dengan data dihitung dengan rumus:<br>
+![Alt text](rms.png) <br>
 ```bash
 lr.fit(x_train, y_train)
 y_train_prediction = lr.predict(x_train)
