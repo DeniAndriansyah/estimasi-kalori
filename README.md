@@ -5,7 +5,7 @@
 
 ## Domain Proyek
 
-Estimasi makanan cepat saji yang tinggi akan kalori, jika tidak menyeimbangkannya dengan aktivitas fisik yang cukup dapat menyebabkan kelebihan berat badan dan obesitas. Kondisi ini meningkatkan risiko terkena berbagai penyakit, seperti diabetes, penyakit jantung, dan beberapa jenis kanker. Untuk itu saya berupaya membuat perhitungan kalori dengan 8 parameter yang sudah ditentukan agar mencegah kalian terkena berbagasi resiko penyakit.
+Estimasi makanan cepat saji yang tinggi akan kalori, jika tidak menyeimbangkannya dengan aktivitas fisik yang cukup dapat menyebabkan kelebihan berat badan dan obesitas. Kondisi ini meningkatkan risiko terkena berbagai penyakit, seperti diabetes, penyakit jantung, dan beberapa jenis kanker. Untuk itu saya berupaya membuat perhitungan kalori dengan 8 parameter yang sudah ditentukan agar mencegah kalian terkena berbagai resiko penyakit.
 
 ## Business Understanding
 
@@ -30,7 +30,7 @@ Dataset yang saya gunakan saya mengambilnya dari Kaggle yang berisi informasi te
 
 Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
-### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
+### Variabel-variabel pada Fastfood Nutrition adalah sebagai berikut:
 
 - calories : Merupakan kalori pada makanan dan minuman.(int)
 - fiber : Merupakan serat pangan.(float)
