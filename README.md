@@ -9,21 +9,20 @@ Estimasi makanan cepat saji yang tinggi akan kalori, jika tidak menyeimbangkanny
 
 ## Business Understanding
 
-Agar orang - orang  dapat memilih makanan cepat saji yang jumlah kalorinya tinggi, sedang dan rendah untuk mencegah terkena berbagai resiko penyakit.
+Memudahkan orang-orang dalam mengecek makanan yang jumlah kalorinya rendah untuk mencegah terkena bergbagi resiko penyakit 
 
 Bagian laporan ini mencakup:
 
 ### Problem Statements
 
-Ketidaktahuan orang pada makanan cepat saji yang tinggi, sedang, dan rendah akan kalorinya.
+Ketidaktahuan orang- orang pada kandungan makanan yang rendah kalori pada makanan cepat saji.
 
 ### Goals
 
 Agar kalian waspada dalam membeli makanan cepat saji dan menjaga pola hidup sehat agar terhindar dari berbagai resiko penyakit.
 
 ### Solution statements
-- Pengembangan estimasi kalori berbasis web yang mengembangkan penjumlahan kalori pada makanan cepat saji untuk memudahkan pengguna dengan antarmuka yang sederhana agar mengetahui jumlah kalori berdasarkan serat pangan, total karbohidrat, sodium, kalori dari lemak, total lemak, lemak jenuh, protein, dan gula dengan menggunakan model algoritma regresi linear.
-
+- Pengembangan estimasi kalori berbasis web yang menghitung penjumlahan kalori pada makanan cepat saji untuk memudahkan pengguna mengecek jumlah kalori pada makanan cepat saji terlebih dahulu dengan menggunakan model algoritma regresi linear.
 ## Data Understanding
 Dataset yang saya gunakan saya mengambilnya dari Kaggle yang berisi informasi tentang kalori, lemak, karbohidrat, protein, dan nutrisi penting lainnya, kumpulan data ini memberikan sumber daya berharga bagi ahli gizi, peneliti, dan individu yang sadar kesehatan. Dengan menganalisis kumpulan data ini, kita dapat memperoleh pemahaman yang lebih baik tentang dampak nutrisi dari konsumsi makanan cepat saji dan berupaya menciptakan pilihan makanan yang lebih sehat.<br>
 [Fastfood Nutrition](https://www.kaggle.com/datasets/ulrikthygepedersen/fastfood-nutrition).
@@ -50,7 +49,6 @@ Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:
 - salad : Merupakan jenis makanan sayuran(object)
 
 ## Data Preparation
-Data Preparation merupakan proses analisis data untuk membersihkan, mengubah, dan mempersiapkan data mentah sehingga dapat digunakan untuk analisis.Tujuannya untuk memastikan bahwa data yang digunakan untuk analisis bebas dari kesalahan, tidak konsisten, atau tidak lengkap. Persiapan data yang efektif dapat meningkatkan keakuratan analisis data.
 Dataset yang saya gunakan yaitu mengambil dari Kaggle
 
 Pertama import library yang akan digunakan
@@ -127,7 +125,6 @@ df['item'].value_counts()
 ```
 Selanjutnya 
 ## Visualisasi Data
-Visualisasi data merupakan representasi grafis dari informasi dan data yang dirancang untuk menyajikan informasi secara visual sehingga dapat dengan mudah dipahami dan dianalisis. 
 Untuk melihat visualisasi dan memahami hubungan antara berbagai fitur dalam dataset dengan warna yang menggambarkan tingkat dan arah korelasi antar fitur
 ```bash
 plt.figure(figsize=(10,8))
@@ -144,8 +141,7 @@ for col in columns:
 ```
 Tahap selanjutnya
 ## Modeling
-Modeling ialah proses pembuatan model matematis, statistik, atau komputasional yang mewakili atau mencerminkan hubungan antara variabel dalam dataset. Tujuannya dari pembuatan model untuk memahami dan menjelaskan pola, tren, atau hubungan dalam data serta untuk membuat prediksi atau estimasi tentang data baru yang belum pernah dilihat sebelumnya. 
-Karena library yanga akan digunakan sudah diawal maka selanjutnya<br>
+Karena library yang akan digunakan sudah diawal maka selanjutnya<br>
 Untuk melakukan modeling  memakai algoritma regresi linear dimana harus memisahkan atribut yang akan dijadikan sebagai fitur(x) dan atribut mana yang dijadikan label(y).
 ```bash
 features = ['fiber', 'total_carb', 'sodium', 'cal_fat', 'total_fat', 'sat_fat', 'protein', 'sugar']
