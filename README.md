@@ -27,8 +27,6 @@ Agar kalian waspada dalam membeli makanan cepat saji dan menjaga pola hidup seha
 Dataset yang saya gunakan saya mengambilnya dari Kaggle yang berisi informasi tentang kalori, lemak, karbohidrat, protein, dan nutrisi penting lainnya, kumpulan data ini memberikan sumber daya berharga bagi ahli gizi, peneliti, dan individu yang sadar kesehatan. Dengan menganalisis kumpulan data ini, kita dapat memperoleh pemahaman yang lebih baik tentang dampak nutrisi dari konsumsi makanan cepat saji dan berupaya menciptakan pilihan makanan yang lebih sehat.<br>
 [Fastfood Nutrition](https://www.kaggle.com/datasets/ulrikthygepedersen/fastfood-nutrition).
 
-Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
-
 ### Variabel-variabel pada Fastfood Nutrition adalah sebagai berikut:
 - restaurant : Merupakan toko pada makanan cepat saji.(object)
 - item : Merupakan makanan cepat saji.(object)
