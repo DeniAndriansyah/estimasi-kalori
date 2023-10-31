@@ -129,7 +129,7 @@ plt.figure(figsize=(10,8))
 sns.heatmap(df.corr(), annot=True)
 ```
 ![Alt text](htmp.png) <br>
-mari kita lihat penyebaran kalori per menunya
+mari kita lihat penyebaran kalori per itemnya
 ![download](download.png)
 Tahap selanjutnya
 ## Modeling
