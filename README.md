@@ -129,14 +129,8 @@ plt.figure(figsize=(10,8))
 sns.heatmap(df.corr(), annot=True)
 ```
 ![Alt text](htmp.png) <br>
-Lalu untuk melihat distribusi kalori disetiap kolom
-```bash
-columns = df.columns
-for col in columns:
-    plt.figure(figsize=(20,10))
-    sns.countplot(data=df, x=col, hue='calories')
-    plt.show()
-```
+mari kita lihat penyebaran kalori per menunya
+![download](download.png)
 Tahap selanjutnya
 ## Modeling
 Karena library yang akan digunakan sudah diawal maka selanjutnya<br>
