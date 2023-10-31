@@ -8,16 +8,16 @@ st.title('Estimasi Kalori Pada Makanan Cepat Saji')
 col1, col2 = st.columns(2)
 
 with col1:
-    fiber = st.text_input('Input Serat pangan')
-    total_carb = st.text_input('Input Total Karbohidrat')
-    sodium = st.text_input('Input Sodium')
-    cal_fat = st.text_input('Input Kalori dari lemak')
+    fiber = st.slider('Input Serat Pangan', 0, 17, 5) 
+    total_carb = st.slider('Input Total Karbohidrat' , 0, 156, 15)
+    sodium = st.slider('Input Sodium', 15, 6080, 25)
+    cal_fat = st.slider('Input Kalori dari lemak', 0, 1270, 25)
 
 with col2:
-    total_fat = st.text_input('Input Total lemak')
-    sat_fat = st.text_input('Input Lemak jenuh')
-    protein = st.text_input('Input Protein')
-    sugar = st.text_input('Input Gula')
+    total_fat = st.slider('Input Total lemak',0, 141, 15)
+    sat_fat = st.slider('Input Lemak jenuh',0, 47, 5)
+    protein = st.slider('Input Protein',1, 186, 15)
+    sugar = st.slider('Input Gula',0, 87, 5)
 
 predict = ' '
 
