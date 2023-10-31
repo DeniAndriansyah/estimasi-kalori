@@ -130,6 +130,12 @@ sns.heatmap(df.corr(), annot=True)
 ```
 ![Alt text](htmp.png) <br>
 mari kita lihat penyebaran kalori per itemnya
+```bash
+chick_fila = df[df['restaurant'] == 'Chick Fil-A']
+plt.figure(figsize=(18, 10))
+plt.title('Chick Fil-A Calorie Per Item')
+sns.barplot(y=chick_fila['item'], x=df['calories'])
+```
 ![download](download.png)
 Tahap selanjutnya
 ## Modeling
